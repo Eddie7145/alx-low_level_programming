@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*
+ * main - adds one line to the code, so that program prints a[2] = 98
+ */
 int main(void)
 {
 	int n;
