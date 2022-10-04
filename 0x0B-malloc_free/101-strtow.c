@@ -3,7 +3,7 @@
 /**
   * wordnos - counts no of words in a given string
   * @s: pointer to the string
-  * 
+  *
   * Return: No. of words in the string (int)
   */
 int wordnos(char *s)
@@ -27,12 +27,12 @@ int wordnos(char *s)
 	return (w);
 }
 /**
-  * **strtow - splits a string into words 
-  * @str: string to split
-  *
-  * Return: pointer to an array of strings (success)
-  * or NULL (Error)
-  */
+ * **strtow - splits a string into words 
+ * @str: string to split
+ *
+ * Return: pointer to an array of strings (success)
+ * or NULL (Error)
+ */
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
